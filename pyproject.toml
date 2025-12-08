@@ -1,0 +1,21 @@
+[project]
+name = "scicapstone"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "astropy[jupyter]>=7.1.0",
+    "astroquery>=0.4.10",
+    "ipyaladin>=0.6.0",
+    "ipympl>=0.9.8",
+    "matplotlib[jupyter]>=3.10.6",
+    "notebook>=7.4.5",
+    "plotly>=6.5.0",
+    "pyside6>=6.9.2",
+    "pyvista[all,jupyter,trame]>=0.46.4",
+    "scipy>=1.16.2",
+    "statsmodels>=0.14.5",
+    "tabulate>=0.9.0",
+    "tqdm>=4.67.1",
+]
